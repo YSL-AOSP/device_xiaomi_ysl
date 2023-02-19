@@ -28,5 +28,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8953 \
+    libmm-qcamera
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/ysl/ysl-vendor.mk) 
