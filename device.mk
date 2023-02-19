@@ -33,5 +33,10 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera
 
+# Consumer IR
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/ysl/ysl-vendor.mk) 
