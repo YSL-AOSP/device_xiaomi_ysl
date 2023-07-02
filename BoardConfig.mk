@@ -13,7 +13,7 @@ include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG := ysl_defconfig
 
 # Display
-TARGET_SCREEN_DENSITY := 320
+TARGET_SCREEN_DENSITY := 280
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
